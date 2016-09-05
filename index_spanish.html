@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>UNITED BROKERS REALTY</title>
+    </head>
+    <body>
+      	<img src="https://s3-media3.fl.yelpcdn.com/bphoto/6LP9AH3Qigk0LyH7c1eQYA/ls.jpg" alt="UBoffice">
+        <h1><b>UNITED BROKERS REALTY</b></h1>
+        <h4>Direccion: 2522 W. Beverly Blvd <br/> Montebello, CA 90640</h4>
+      	<h3 style="text-align:center;"><i>Nuestro equipo de profesionales estan listos para ayudarle en todo sus necesidades de real estate
+        incluyendo servicios de <b>escrow</b> y <b>mortgages</b>. Servimos a todas las areas, especialmente Los Angeles y Orange County.</i></h3>
+        <p> 
+            <b>Ofrecemos los siguientes servicios:</b><br/>
+            <ul>
+              <li>Comprar una casa</li>
+              <li>Vender una casa</li>
+              <li>Mortgage</li>
+              <li>Escrow</li> 
+            </ul>
+        </p>
+    	  <h4>Haganos saber sus necesidades!</h4>
+    	      <form name="Member Needs" action="https://httpbin.org/post" method="post">
+      		  <fieldset>
+        	      <div>
+                    <label>Nombre Completo:</label>
+              	    <input type="text" name="nombre">
+            	  </div>
+                <div>
+              		  <label>Correo Electronico:</label>
+              		  <input type="email" name="correoelectronico">
+            	  </div>
+            	  <div>
+                    <label>Que necesita?:</label><br/>
+          		      <input type="checkbox" name="cb-agree" value="agree">
+          		     Quiero comprar una casa <br/>
+                    <input type="checkbox" name="cb-agree" value="agree">
+                    Quiero vender mi casa <br/>
+                    <input type="checkbox" name="cb-agree" value="agree">Otro
+        	     </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label>Cuidad:</label>
+                    <input type="text" name="cuidad">
+                </div>
+                <div>
+                    <label>Tipo</label>
+                    <select name="tipo_casa">
+                        <option value="casa">Casa</option>
+                        <option value="apartmento">Apartmento</option>
+                        <option value="condo">Condo</option>
+                    </select>
+                </div>
+                <div>
+                    <label># of Cuartos</label>
+                    <select name="num_bedroom">
+                        <option value="1bed">1 o mas</option>
+                        <option value="2bed">2 o mas</option>
+                        <option value="3bed">3 o mas</option>
+                        <option value="4bed">4 o mas</option>
+                        <option value="5bed">5 o mas</option>
+                        <option value="6bed">6 o mas</option>
+                    </select>
+                </div>
+                <div>
+                    <label># of Banos</label>
+                    <select name="num_bathrooms">
+                        <option value="1bath">1 o mas</option>
+                        <option value="2bath">2 o mas</option>
+                        <option value="3bath">3 o mas</option>
+                        <option value="4bath">4 o mas</option>
+                        <option value="5bath">5 o mas</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Precio Minimo:</label>
+                    <input type="text" name="minpricio">
+                </div>
+                <div>
+                    <label>Precio Maximo:</label>
+                    <input type="text" name="maxpricio">
+                </div>
+                <button type="submit">Mi futura casa!</button>
+            </fieldset>
+    	      </form>
+
+
+
+    </body>
+    </html>
