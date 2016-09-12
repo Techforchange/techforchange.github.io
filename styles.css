@@ -1,3 +1,72 @@
-h1 {
-	background-color: red;
+img {
+	background-image: url("https://s3-media3.fl.yelpcdn.com/bphoto/6LP9AH3Qigk0LyH7c1eQYA/ls.jpg");
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 300px;
+
 }
+
+body {
+	background-color: black;
+	color: white;
+	width: 960px;
+}
+
+#title	{
+	font-family: impact;
+	font-style: italic;
+	font-size: 75px;
+	padding: 0px;
+	margin: 50px;
+	text-align: center;
+}
+
+.information {
+	margin: 40%;
+}
+
+.Motto {
+	display: block;
+	padding: 1%;
+	border: 5px solid white;
+	margin: 5%;
+}
+
+
+.footer {
+	font-size: 10px;
+	padding: 5%;
+}
+
+.form2 {
+	padding: 2%;
+	margin: 3%;
+}
+
+.services {
+	text-align: center;
+	list-style-position: inside; 
+}
+
+@media screen and (max-width: 706px) {
+ body {
+   background-color: gray;
+
+ }
+}
+
+.Address {
+	position: absolute;
+	top: 150px;
+	right: 1px;
+	margin: 0px;
+	font-size: 20px;
+	margin-right: 100px;
+	font-style: impact;
+}
+
+a:visited
+{
+	color: hotpink;
+}
+
